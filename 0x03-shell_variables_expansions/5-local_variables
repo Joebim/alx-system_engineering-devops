@@ -1,2 +1,2 @@
 #!/bin/bash
-"${printenv}\n${declare -F}" | less
+declare -p | grep -vE '^[^a-zA-Z]*_' | sort; printenv | sort; declare -F | awk '{print $NF}'
