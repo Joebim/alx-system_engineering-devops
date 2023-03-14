@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$string" | tr -d 'cC'
+echo '$string' | tr -d 'cC'
