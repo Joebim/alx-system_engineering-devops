@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(bc <<< "obase=bestchol; ibase=10; $((10#${WATER} + 10#${STIR}))")
