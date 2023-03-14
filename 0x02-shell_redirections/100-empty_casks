@@ -1,2 +1,2 @@
 #!/bin/bash
-find -mindepth 1 -type d -printf '%P/\n' -o -type f -empty -printf '%P\n' | echo
+find -mindepth 1 -empty -printf '%P/\n' | echo
