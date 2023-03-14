@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(<&0) | rev
+echo $(echo $(<&0)) | rev
