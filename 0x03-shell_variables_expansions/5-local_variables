@@ -1,2 +1,2 @@
 #!/bin/bash
-$(declare -p | cut -c 14-) $(printenv) $(declare -F)
+$((declare -p | cut -c 14-)) $((printenv)) $((declare -F))
