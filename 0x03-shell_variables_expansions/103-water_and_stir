@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(bc <<< "ibase=10 obase=bestchol\n$((10#${WATER} + 10#${STIR}))")
+echo $(($((10#${WATER}+10#${STIR}))/bestchol))$((($((10#${WATER}+10#${STIR}))%bestchol)))
