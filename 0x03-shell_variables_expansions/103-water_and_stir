@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(bc <<< "obase=bestchol; ibase=10; $((10#${WATER} + 10#${STIR}))")
+echo $(bc <<< "ibase=10 obase=bestchol\n$((10#${WATER} + 10#${STIR}))")
