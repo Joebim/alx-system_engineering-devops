@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1d ./* .[!.]* | awk -F/ '{print $NF}'
+find . -empty -printf '%P\n'
