@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(((${WATER}+${STIR})/bestchol))$(((${WATER}+${STIR})%bestchol))
+printf "%d%d\n" $(((${WATER}+${STIR})/bestchol)) $(((${WATER}+${STIR})%bestchol))
